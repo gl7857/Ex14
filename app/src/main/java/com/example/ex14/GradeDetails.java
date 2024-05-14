@@ -1,3 +1,4 @@
+package com.example.ex14;
 public class GradeDetails {
     String subjectName;
     int grade;
