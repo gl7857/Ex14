@@ -235,7 +235,7 @@ public class second_activity extends AppCompatActivity {
 
 
     public boolean isValidLevel(String level) {
-        return !level.isEmpty() && !(Integer.parseInt(level) > 100);
+        return !level.isEmpty() && !(Integer.parseInt(level) <3 && Integer.parseInt(level)>5);
     }
 
     public void setGrades() {
